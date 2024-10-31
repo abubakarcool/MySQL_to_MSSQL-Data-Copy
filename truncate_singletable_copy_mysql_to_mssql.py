@@ -12,7 +12,7 @@ mssql_conn = pyodbc.connect(
 
 # MySQL connection (using pymysql)
 mysql_conn = pymysql.connect(
-    host='IPACK-SVR-DEP',
+    host='sever_address',
     user='test123',
     password='test123',
     db='hotpack_test'
