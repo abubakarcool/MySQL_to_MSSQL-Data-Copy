@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # MySQL connection details
 mysql_conn = pymysql.connect(
-    host='IPACK-SVR-DEP',
+    host='sever_address',
     user='test123',
     password='test123',
     db='hotpack_test'
@@ -17,9 +17,9 @@ mysql_conn = pymysql.connect(
 mssql_conn_str = (
     "DRIVER={ODBC Driver 17 for SQL Server};"
     "SERVER=ipack-svr-aatdb\\mes_kosta;"  # Double backslashes for escaping
-    "DATABASE=IPCMES;"
-    "UID=mesuser2;"
-    "PWD=use018Mes!;"
+    "DATABASE=database_mssql_name;"
+    "UID=test;"
+    "PWD=test;"
 )
 
 # Establish connections
